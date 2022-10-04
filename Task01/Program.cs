@@ -6,12 +6,22 @@
 // a = 9, b = -3 -> да
 // a = -3 b = 9 -> нет
 
-Console.Write("введите первое число: ");
-int square = Convert.ToInt32(Console.ReadLine());
-Console.Write("введите второе число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-bool result = square == number * number;
-if (result)
+// Console.Write("введите первое число: ");
+// int square = Convert.ToInt32(Console.ReadLine());
+// Console.Write("введите второе число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// bool result = square == number * number;
+// if (result)
+// {
+//     Console.Write(result);
+// }
+
+Console.Write("Введите первое число: ");
+int number1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int number2 = Convert.ToInt32(Console.ReadLine());
+if (number1 == number2 * number2)
 {
-    Console.Write(result);
+    Console.WriteLine("Да");
 }
+else Console.WriteLine("Нет");
