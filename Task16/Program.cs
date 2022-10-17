@@ -35,4 +35,4 @@ else Console.Write("Нет");
 // }
 // bool result = CheckNum(number1, number2);
 // if (result) Console.WriteLine("Да");
-// else Console.WriteLine("Нет");
+// else Console.WriteLine("Нет"); 
